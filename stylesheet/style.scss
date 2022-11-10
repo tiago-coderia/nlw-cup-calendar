@@ -44,8 +44,12 @@ main {
 
 .cards {
   display: flex;
-  flex-direction: column;
+
   gap: 24px;
+
+  @media (max-width:1120px) {
+    flex-direction: column;
+  }
 }
 
 
